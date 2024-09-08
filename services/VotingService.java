@@ -86,7 +86,7 @@ public class VotingService {
 	}
 	
 	public ElectionChoice findElectionChoiceWithMaxVotes(Election election) {
-		return electionChoiceRepository.findElectionChoiceWithMaxVotes(election.getId());
+		return  electionChoiceRepository.findElectionChoiceWithMaxVotes(election.getId());
 	}
 
 }
